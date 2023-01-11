@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="/styles/main.css" rel="stylesheet" type="text/css">
+    <title>Inventario</title>
+</head>
+<body>
+    <header>
+        <nav class="nav">
+            <h1>Mi Inventario</h1>
+        </nav>
+        
+    </header>
+    <main class="main">
+        <article class="container">
+            <h2>Reto Workshop 2</h1>
+            <p>Realizar un formulario que permita agregar un producto indicando: nombre, precio, cantidad y categoría. Al guardar, debe agregarlo a un array y mostrarlo en consola, 
+                posteriormente, mostrarlo en una tabla, donde estén enlistado todos los productos del array y en la última columna de la tabla debe poseer un botón que permita eliminar
+                y actualizar dicho elemento en el array.</p>
+        </article>
+        <table id="containerTable">
+            <tr>
+                <th>Producto</th>
+                <th>Precio</th>
+                <th>Cantidad</th>
+                <th>Categoria</th>
+                <th>Editar</th>
+            </tr>
+        </table>
+    </main>
+    <div id="contenedorAgregar">
+        <a href="/pages/addProduct.html" id="btn-agregar">Agregar</a>
+    </div>
+    <footer class="footer">
+        <h1>Fin del Workshop 2</h1>
+    </footer>
+    <script src="/scripts/app.js" type="module"></script>
+</body>
+</html>

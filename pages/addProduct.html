@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agregar Producto</title>
+    <link href="/styles/stylesadd.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+    <header>
+        <nav class="nav">
+            <h1>Agregar Producto</h1>
+        </nav>
+    </header>
+    <main>
+        <article class="container">
+            <h2>Servicio de Agregar Producto</h1>
+            <p>Realizar un formulario que permita agregar un producto indicando: nombre, precio, cantidad y categoría. Al guardar, debe agregarlo a un array y mostrarlo en consola, 
+                posteriormente, debe mostrarlo en una tabla.</p>
+        </article>
+        <h2 id="titleForm">Formulario para Agregar Producto</h2>
+        <form class="form">
+            <label for="nameLabel">Producto</label>
+            <input type="text" id="name"/>
+            <label for="priceLabel">Precio</label>
+            <input type="number" id="price"/>
+            <label for="amountLabel">Cantidad</label>
+            <input type="number" id="amount"/>
+            <label for="categoryLabel">Categoria</label>
+            <input type="text" id="category"/>
+            <button type="submit">Enviar</button>
+        </form>
+        <a href="/index.html" id="back">Cancelar</a>
+    </main>
+    <script src="/scripts/addProduct.js" type="module"></script>
+</body>
+</html>
